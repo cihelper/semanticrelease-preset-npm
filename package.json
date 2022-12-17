@@ -1,0 +1,30 @@
+{
+  "name": "@cihelper/preset-semanticrelease-npm",
+  "version": "1.0.0",
+  "description": "Semantic Release preset for JS/TS projects using npm",
+  "main": "release.config.js",
+  "files": [
+    "release.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cihelper/preset-semanticrelease-npm.git"
+  },
+  "keywords": [
+    "semantic-release-config",
+    "js",
+    "npm",
+    "github"
+  ],
+  "author": "Mirko Lenz <mirko@mirkolenz.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cihelper/semantic-release-npm/issues"
+  },
+  "homepage": "https://github.com/cihelper/semantic-release-npm#README",
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.5"
+  }
+}
