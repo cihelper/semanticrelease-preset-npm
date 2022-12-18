@@ -1,5 +1,5 @@
 {
-  "name": "@cihelper/preset-semanticrelease-npm",
+  "name": "@cihelper/semanticrelease-preset-npm",
   "version": "1.0.0",
   "description": "Semantic Release preset for JS/TS projects using npm",
   "main": "release.config.js",
@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cihelper/preset-semanticrelease-npm.git"
+    "url": "git+https://github.com/cihelper/semanticrelease-preset-npm.git"
   },
   "keywords": [
     "semantic-release-config",
