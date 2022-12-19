@@ -42,7 +42,7 @@ const config = {
       "@semantic-release/github",
       {
         assets: "dist/*.tgz",
-        // failComment: false,
+        failComment: false,
       },
     ],
     "@semantic-release/git",
