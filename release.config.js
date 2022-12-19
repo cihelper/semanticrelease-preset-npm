@@ -1,3 +1,5 @@
+const NPM_PREPARE_SCRIPT = process.env.NPM_PREPARE_SCRIPT ?? "build";
+
 const config = {
   branches: [
     { name: "main" },
@@ -26,7 +28,10 @@ const config = {
         changelogTitle: "# Changelog",
       },
     ],
-    ["@semantic-release/exec", { prepareCmd: "npm run build --if-present" }],
+    [
+      "@semantic-release/exec",
+      { prepareCmd: `npm run ${NPM_PREPARE_SCRIPT} --if-present` },
+    ],
     [
       "@semantic-release/npm",
       {
