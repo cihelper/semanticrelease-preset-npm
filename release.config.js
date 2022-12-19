@@ -26,6 +26,7 @@ const config = {
         changelogTitle: "# Changelog",
       },
     ],
+    ["@semantic-release/exec", { prepareCmd: "npm run build --if-present" }],
     [
       "@semantic-release/npm",
       {
