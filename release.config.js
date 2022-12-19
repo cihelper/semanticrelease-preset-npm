@@ -1,4 +1,4 @@
-const NPM_PREPARE_SCRIPT = process.env.NPM_PREPARE_SCRIPT ?? "build";
+const NPM_PREPARE_SCRIPT = process.env.NPM_PREPARE_SCRIPT;
 
 const config = {
   branches: [
@@ -30,7 +30,12 @@ const config = {
     ],
     [
       "@semantic-release/exec",
-      { prepareCmd: `npm run ${NPM_PREPARE_SCRIPT} --if-present` },
+      {
+        prepareCmd:
+          NPM_PREPARE_SCRIPT !== undefined
+            ? `npm ci && npm run ${NPM_PREPARE_SCRIPT} --if-present`
+            : "",
+      },
     ],
     [
       "@semantic-release/npm",
