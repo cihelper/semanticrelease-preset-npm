@@ -34,7 +34,7 @@ const config = {
         prepareCmd:
           NPM_PREPARE_SCRIPT !== undefined
             ? `npm ci && npm run ${NPM_PREPARE_SCRIPT} --if-present`
-            : "",
+            : "true",
       },
     ],
     [
