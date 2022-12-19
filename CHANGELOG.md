@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.1.0...v1.1.1) (2022-12-19)
+
+
+### Bug Fixes
+
+* add null operation if no npm script given ([2dcf472](https://github.com/cihelper/semanticrelease-preset-npm/commit/2dcf4727580878ec5f6b2e0f2e278732075f74ce))
+* run npm ci and build only if specified ([2704abd](https://github.com/cihelper/semanticrelease-preset-npm/commit/2704abdfbf9804f73f092131d62ede0e44a54e90))
+
 ## [1.1.0](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.0.2...v1.1.0) (2022-12-19)
 
 
