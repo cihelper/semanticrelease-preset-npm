@@ -48,6 +48,7 @@ const config = {
       {
         assets: "dist/*.tgz",
         failComment: false,
+        addReleases: "bottom",
       },
     ],
     "@semantic-release/git",
