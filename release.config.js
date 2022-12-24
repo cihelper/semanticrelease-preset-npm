@@ -51,7 +51,12 @@ const config = {
         addReleases: "bottom",
       },
     ],
-    "@semantic-release/git",
+    [
+      "@semantic-release/git",
+      {
+        message: "chore(release): ${nextRelease.version}",
+      },
+    ],
   ],
 };
 
