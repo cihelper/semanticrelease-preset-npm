@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.2.1...v1.2.2) (2023-01-14)
+
+
+### Bug Fixes
+
+* add dev branch to config ([bd32784](https://github.com/cihelper/semanticrelease-preset-npm/commit/bd3278466df1f4990bbc7d192a0b5f1ff508b012))
+
 ## [1.2.1](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.2.0...v1.2.1) (2022-12-24)
 
 
