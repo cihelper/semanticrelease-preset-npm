@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.2.0...v1.2.1) (2022-12-24)
+
+
+### Bug Fixes
+
+* remove skip-ci from commit message ([4b8c77e](https://github.com/cihelper/semanticrelease-preset-npm/commit/4b8c77e5f3ad672ce44c7aaa721a5ff3a67dd549))
+
 ## [1.2.0](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.1.1...v1.2.0) (2022-12-20)
 
 
