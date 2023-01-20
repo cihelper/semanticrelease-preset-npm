@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.2.2...v1.3.0) (2023-01-20)
+
+
+### Features
+
+* add npm install option ([91d7455](https://github.com/cihelper/semanticrelease-preset-npm/commit/91d74552fc11b23f3b1303fa6decc2611d7194ac))
+
 ## [1.2.2](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.2.1...v1.2.2) (2023-01-14)
 
 
