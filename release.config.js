@@ -1,4 +1,8 @@
 const NPM_PREPARE_SCRIPT = process.env.NPM_PREPARE_SCRIPT;
+const NPM_INSTALL =
+  (process.env.NPM_PREPARE_SCRIPT !== undefined &&
+    process.env.NPM_INSTALL !== "false") ||
+  process.env.NPM_INSTALL === "true";
 
 const config = {
   branches: [
@@ -31,10 +35,12 @@ const config = {
     [
       "@semantic-release/exec",
       {
-        prepareCmd:
-          NPM_PREPARE_SCRIPT !== undefined
-            ? `npm ci && npm run ${NPM_PREPARE_SCRIPT} --if-present`
-            : "true",
+        prepareCmd: [
+          NPM_INSTALL && `npm ci`,
+          NPM_PREPARE_SCRIPT !== undefined && `npm run ${NPM_PREPARE_SCRIPT}`, //  --if-present,
+        ]
+          .map((entry) => entry || "true")
+          .join(" && "),
       },
     ],
     [
