@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.3.0...v1.3.1) (2023-01-20)
+
+
+### Bug Fixes
+
+* save tarball to artifacts folder ([3d60374](https://github.com/cihelper/semanticrelease-preset-npm/commit/3d60374707eab23dc94038065accf51139af698c))
+
 ## [1.3.0](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.2.2...v1.3.0) (2023-01-20)
 
 
