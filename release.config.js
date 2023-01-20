@@ -46,13 +46,13 @@ const config = {
     [
       "@semantic-release/npm",
       {
-        tarballDir: "dist",
+        tarballDir: "artifacts",
       },
     ],
     [
       "@semantic-release/github",
       {
-        assets: "dist/*.tgz",
+        assets: "artifacts/*.tgz",
         failComment: false,
         addReleases: "bottom",
       },
