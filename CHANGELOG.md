@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.3.1...v1.3.2) (2023-01-21)
+
+
+### Bug Fixes
+
+* remove prepare-script as prepack is available ([9609b66](https://github.com/cihelper/semanticrelease-preset-npm/commit/9609b6695378fab8081f7b3e09742b3f948f8911))
+
 ## [1.3.1](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.3.0...v1.3.1) (2023-01-20)
 
 
