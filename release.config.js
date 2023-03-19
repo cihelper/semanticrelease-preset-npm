@@ -37,6 +37,7 @@ const config = {
       {
         assets: "artifacts/*.tgz",
         failComment: false,
+        successComment: false,
         addReleases: "bottom",
       },
     ],
