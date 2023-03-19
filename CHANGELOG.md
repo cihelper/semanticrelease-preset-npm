@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.3](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.3.2...v1.3.3) (2023-03-19)
+
+
+### Bug Fixes
+
+* remove success comment from github ([3ff1243](https://github.com/cihelper/semanticrelease-preset-npm/commit/3ff1243b2a2ca886623dcf19373a7abd819d5028))
+
 ## [1.3.2](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.3.1...v1.3.2) (2023-01-21)
 
 
