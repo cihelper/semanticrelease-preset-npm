@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.3.3...v1.4.0) (2023-06-18)
+
+
+### Features
+
+* add plugin semantic-release-major-tag ([5b9dcdd](https://github.com/cihelper/semanticrelease-preset-npm/commit/5b9dcddf743fa3e88d09765181fb21ad6ca8ccb1))
+
 ## [1.3.3](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.3.2...v1.3.3) (2023-03-19)
 
 
