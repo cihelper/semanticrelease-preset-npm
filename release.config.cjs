@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   branches: [
     { name: "main" },
     { name: "next" },
