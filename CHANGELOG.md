@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.4.0...v1.4.1) (2023-09-18)
+
+
+### Bug Fixes
+
+* trigger ci build ([b015d9e](https://github.com/cihelper/semanticrelease-preset-npm/commit/b015d9ef333c0410a291a90301ac850f1402a564))
+
 ## [1.4.0](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.3.3...v1.4.0) (2023-06-18)
 
 
