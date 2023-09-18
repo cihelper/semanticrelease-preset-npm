@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.4.1...v1.5.0) (2023-09-18)
+
+
+### Features
+
+* switch to es module ([5faa56a](https://github.com/cihelper/semanticrelease-preset-npm/commit/5faa56a7c77619fb9560099931d01470c9aad1bb))
+
 ## [1.4.1](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.4.0...v1.4.1) (2023-09-18)
 
 
