@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.5.0...v1.5.1) (2023-09-18)
+
+
+### Bug Fixes
+
+* use commonjs release config ([16c48ca](https://github.com/cihelper/semanticrelease-preset-npm/commit/16c48cac7d195a11bfef3fd5221f19990e4c2350))
+
 ## [1.5.0](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.4.1...v1.5.0) (2023-09-18)
 
 
