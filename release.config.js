@@ -1,4 +1,4 @@
-const config = {
+export default {
   branches: [
     { name: "main" },
     { name: "next" },
@@ -55,5 +55,3 @@ const config = {
     ],
   ],
 };
-
-module.exports = config;
