@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.3](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.5.2...v1.5.3) (2023-09-22)
+
+
+### Bug Fixes
+
+* use semantic-release v21 ([74bfb80](https://github.com/cihelper/semanticrelease-preset-npm/commit/74bfb809fb774c75b272ea44afee1440d501ff4b))
+
 ## [1.5.2](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.5.1...v1.5.2) (2023-09-18)
 
 
