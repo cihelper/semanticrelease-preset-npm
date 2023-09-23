@@ -1,6 +1,6 @@
 {
   "name": "@cihelper/semanticrelease-preset-npm",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "Semantic Release preset for JS/TS projects using npm",
   "type": "commonjs",
   "main": "release.config.js",
