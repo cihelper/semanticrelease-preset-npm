@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.5.5](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.5.4...v1.5.5) (2024-01-29)
+
+
+### Bug Fixes
+
+* adjust module export for .releaserc.js ([636da01](https://github.com/cihelper/semanticrelease-preset-npm/commit/636da0192ffb2feaf4aaf7a119b1afaf508c54d7))
+* correctly export new config location ([83c03a1](https://github.com/cihelper/semanticrelease-preset-npm/commit/83c03a1078047a29c1fff24965d7e2c9ef285c85))
+* **deps:** bump to semantic-release v23 and move config ([2ebcde3](https://github.com/cihelper/semanticrelease-preset-npm/commit/2ebcde3c438cf3466b6e22d34f0e1e7d0059caca))
+* move release.config.js to .releaserc.js ([6e34bb8](https://github.com/cihelper/semanticrelease-preset-npm/commit/6e34bb8e1a10f0ba7c2158fa66cb49151424576f))
+
 ## [1.5.4](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.5.3...v1.5.4) (2023-09-23)
 
 
