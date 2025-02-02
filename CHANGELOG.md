@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.7.0](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.6.0...v1.7.0) (2025-02-02)
+
+### Features
+
+* add keyword `notable change` to release notes generator ([7e8dc98](https://github.com/cihelper/semanticrelease-preset-npm/commit/7e8dc98409a7e49934f992bbc3bc70db68e7a503))
+
 ## [1.6.0](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.5.5...v1.6.0) (2024-11-07)
 
 ### Features
