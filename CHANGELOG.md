@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.7.1](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.7.0...v1.7.1) (2025-10-27)
+
+### Bug Fixes
+
+* trigger release ([2dc97cb](https://github.com/cihelper/semanticrelease-preset-npm/commit/2dc97cbc9ee59b7d69d67b6a4ca3eaa72882abe0))
+
 ## [1.7.0](https://github.com/cihelper/semanticrelease-preset-npm/compare/v1.6.0...v1.7.0) (2025-02-02)
 
 ### Features
